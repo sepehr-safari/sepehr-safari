@@ -2,11 +2,11 @@
   Open Source Software Developer • Supported by <a href="https://opensats.org">OpenSats</a> ⚡️
 </h1>
 
-<a href="https://github.com/sepehr-safari">
-  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api?username=sepehr-safari" />
+<a href="https://github.com/sepehr-safari#gh-dark-mode-only">
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api?username=sepehr-safari&theme=dark#gh-dark-mode-only" />
 </a>
-<a href="https://github.com/sepehr-safari">
-  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sepehr-safari&layout=compact&langs_count=8&card_width=320" />
+<a href="https://github.com/sepehr-safari#gh-dark-mode-only">
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sepehr-safari&layout=compact&langs_count=8&card_width=320&theme=dark#gh-dark-mode-only" />
 </a>
 
 ### Pinned Repositories:
