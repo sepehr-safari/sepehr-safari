@@ -2,44 +2,44 @@
   Open Source Software Developer • Supported by <a href="https://opensats.org">OpenSats</a> ⚡️
 </h1>
 
-<a href="https://github.com/sepehr-safari#gh-dark-mode-only">
-  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api?username=sepehr-safari&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari">
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api?username=sepehr-safari&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari#gh-dark-mode-only">
-  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sepehr-safari&layout=compact&langs_count=8&card_width=320&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari">
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sepehr-safari&layout=compact&langs_count=8&card_width=320&theme=dark" />
 </a>
 
 ### Pinned Repositories:
 
-<a href="https://github.com/ostyjs/create-osty#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=create-osty&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/ostyjs/create-osty">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=create-osty&theme=dark" />
 </a>
-<a href="https://github.com/ostyjs/nostr-hooks#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=nostr-hooks&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/ostyjs/nostr-hooks">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=nostr-hooks&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/pinstr#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=pinstr&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/pinstr">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=pinstr&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/nostribe-web-client#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostribe-web-client&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/nostribe-web-client">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostribe-web-client&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/chatstr-client#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/chatstr-client">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/chatstr-client#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/chatstr-client">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/docstr#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/docstr">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/nostr-playground#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostr-playground&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/sepehr-safari/nostr-playground">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostr-playground&theme=dark" />
 </a>
-<a href="https://github.com/nbd-wtf/nostr-tools#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nbd-wtf&repo=nostr-tools&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/nbd-wtf/nostr-tools">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nbd-wtf&repo=nostr-tools&theme=dark" />
 </a>
-<a href="https://github.com/nostr-dev-kit/ndk#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nostr-dev-kit&repo=ndk&theme=dark#gh-dark-mode-only" />
+<a href="https://github.com/nostr-dev-kit/ndk">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nostr-dev-kit&repo=ndk&theme=dark" />
 </a>
 
 ### Pinned Packages:
