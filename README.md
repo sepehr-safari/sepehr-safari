@@ -26,8 +26,8 @@
 <a href="https://github.com/sepehr-safari/chatstr-client">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/chatstr-client">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark" />
+<a href="https://github.com/sepehr-safari/chatstr-relay">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-relay&theme=dark" />
 </a>
 <a href="https://github.com/sepehr-safari/docstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark" />
