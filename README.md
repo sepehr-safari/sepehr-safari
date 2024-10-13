@@ -17,17 +17,17 @@
 <a href="https://github.com/ostyjs/nostr-hooks">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=nostr-hooks&theme=dark" />
 </a>
+<a href="https://github.com/max21dev/groups">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=max21dev&repo=groups&theme=dark" />
+</a>
+<a href="https://github.com/max21dev/moderations">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=max21dev&repo=moderations&theme=dark" />
+</a>
 <a href="https://github.com/sepehr-safari/pinstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=pinstr&theme=dark" />
 </a>
 <a href="https://github.com/sepehr-safari/nostribe-web-client">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostribe-web-client&theme=dark" />
-</a>
-<a href="https://github.com/sepehr-safari/chatstr-client">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-client&theme=dark" />
-</a>
-<a href="https://github.com/sepehr-safari/chatstr-relay">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=chatstr-relay&theme=dark" />
 </a>
 <a href="https://github.com/sepehr-safari/docstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark" />
