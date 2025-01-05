@@ -26,8 +26,8 @@
 <a href="https://github.com/sepehr-safari/pinstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=pinstr&theme=dark" />
 </a>
-<a href="https://github.com/sepehr-safari/nostribe-web-client">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostribe-web-client&theme=dark" />
+<a href="https://github.com/sepehr-safari/nostribe">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostribe&theme=dark" />
 </a>
 <a href="https://github.com/sepehr-safari/docstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark" />
