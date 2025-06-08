@@ -1,5 +1,5 @@
 <h2>
-  Open Source Software Developer • Supported by <a href="https://opensats.org">OpenSats</a> ⚡️
+  Open Source Software Developer (Nostr, Bitcoin)
 </h1>
 
 <a href="https://github.com/sepehr-safari">
@@ -20,9 +20,6 @@
 <a href="https://github.com/max21dev/groups">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=max21dev&repo=groups&theme=dark" />
 </a>
-<a href="https://github.com/max21dev/moderations">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=max21dev&repo=moderations&theme=dark" />
-</a>
 <a href="https://github.com/sepehr-safari/pinstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=pinstr&theme=dark" />
 </a>
@@ -37,6 +34,9 @@
 </a>
 <a href="https://github.com/sepehr-safari/docstr">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=docstr&theme=dark" />
+</a>
+<a href="https://github.com/sepehr-safari/mkauction">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=mkauction&theme=dark" />
 </a>
 <a href="https://github.com/sepehr-safari/nostr-playground">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostr-playground&theme=dark" />
@@ -68,6 +68,31 @@
 ### Pinned Websites:
 
 <ul>
+  <li>
+    <a href="https://mkauction.vercel.app">
+      Auction Platform on Nostr (Vibe-coded with MKStack)
+    </a>
+  </li>
+  <li>
+    <a href="https://mkarticles.vercel.app">
+      Article Publishing Platform on Nostr (Vibe-coded with MKStack)
+    </a>
+  </li>
+  <li>
+    <a href="https://mkpinja.vercel.app">
+      Web Bookmarking Platform on Nostr (Vibe-coded with MKStack)
+    </a>
+  </li>
+  <li>
+    <a href="https://mknostribe.vercel.app">
+      Twitter-style Social App on Nostr (Vibe-coded with MKStack)
+    </a>
+  </li>
+  <li>
+    <a href="https://mkgroups.vercel.app">
+      NIP-29 Group Chat Client (Vibe-coded with MKStack)
+    </a>
+  </li>
   <li>
     <a href="https://osty.dev">
       osty.dev
