@@ -11,6 +11,12 @@
 
 ### Pinned Repositories:
 
+<a href="https://github.com/sepehr-safari/nostr-deploy-server">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostr-deploy-server&theme=dark" />
+</a>
+<a href="https://github.com/sepehr-safari/nostr-deploy-cli">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sepehr-safari&repo=nostr-deploy-cli&theme=dark" />
+</a>
 <a href="https://github.com/ostyjs/create-osty">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ostyjs&repo=create-osty&theme=dark" />
 </a>
