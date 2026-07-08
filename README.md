@@ -72,9 +72,8 @@ Before moving into eMobility, much of my open-source work focused on the Nostr e
 | [`nostr-hooks`](https://github.com/ostyjs/nostr-hooks) | React hooks for building applications on the Nostr protocol |
 | [`create-osty`](https://github.com/ostyjs/create-osty) | Project scaffolding for quickly starting Nostr applications |
 | [`Pinstr`](https://github.com/sepehr-safari/pinstr) | Open-source social platform for curating and sharing interests |
-| [Docstr](https://docstr.vercel.app) | Nostr-based collaborative documents with Bitcoin Lightning payments |
-| [Nostribe](https://nostribe.vercel.app) | Twitter-style social application built on Nostr |
-| [NIP-29 Groups](https://groups.nip29.com) | Group-chat client built around the NIP-29 specification |
+| [`Nostribe`](https://github.com/sepehr-safari/nostribe) | Twitter-style social application built on Nostr |
+| [`NIP-29 Groups`](https://github.com/max21dev/groups) | Group-chat client built around the NIP-29 specification |
 
 ## Engineering focus
 
