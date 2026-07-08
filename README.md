@@ -47,7 +47,7 @@ OCPP DebugKit helps charging-infrastructure developers diagnose failures and und
 ·
 [Repository](https://github.com/ocpp-debugkit/ocpp-debugkit)
 ·
-[npm Packages](https://www.npmjs.com/org/ocpp-debugkit)
+[npm](https://www.npmjs.com/package/@ocpp-debugkit/toolkit)
 
 ---
 
