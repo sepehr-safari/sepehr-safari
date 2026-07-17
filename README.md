@@ -1,15 +1,17 @@
 <h1 align="center">Sepehr Safari</h1>
 
 <p align="center">
-  <strong>Software engineer building open-source eMobility DevTools, native protocol libraries, and AI-native products.</strong>
+  <strong>Software engineer building open-source eMobility DevTools, native protocol libraries, and AI-native engineering workflows.</strong>
 </p>
 
 <p align="center">
   <a href="https://ocppdebugkit.com">OCPP DebugKit</a>
   ·
-  <a href="https://zignostr.com">zig-nostr</a>
+  <a href="https://github.com/open-ocpp-trace/specification">Open OCPP Trace</a>
   ·
-  <a href="https://productcue.ai">ProductCue</a>
+  <a href="https://github.com/sepehr-safari/ocpp-handbook">OCPP Handbook</a>
+  ·
+  <a href="https://zignostr.com">zig-nostr</a>
   ·
   <a href="https://www.linkedin.com/in/sepehrsafari/">LinkedIn</a>
 </p>
@@ -22,7 +24,7 @@ My current work sits at the intersection of **eMobility**, **developer tooling**
 
 I care about making complex systems easier to inspect, understand, and improve.
 
-## Featured work
+## eMobility & OCPP
 
 ### [OCPP DebugKit](https://ocppdebugkit.com)
 
@@ -37,18 +39,18 @@ OCPP DebugKit helps charging-infrastructure developers diagnose failures and und
 
 | | Language | Surface | Role |
 |---|---|---|---|
-| [**toolkit**](https://github.com/ocpp-debugkit/toolkit) | TypeScript | npm · CLI · web inspector | Parse, analyze, and report traces anywhere — including CI |
+| [**toolkit**](https://github.com/ocpp-debugkit/toolkit) | TypeScript | npm · CLI · web inspector | Parse, analyze, and report traces anywhere, including CI |
 | [**Studio**](https://github.com/ocpp-debugkit/studio) | Zig | native desktop app | Live capture off the wire, native performance, OS integration |
 
-The two share **no code**. They meet at a conformance contract — the same trace format, the same event model, the same 16-rule failure taxonomy — with Studio’s goldens generated from the toolkit’s evaluator and re-checked in CI on every change.
+The two share **no code**. They meet at a conformance contract (the same trace format, the same event model, the same 16-rule failure taxonomy), with Studio’s goldens generated from the toolkit’s evaluator and re-checked in CI on every change.
 
 - Inspect charging-session traces, timelines, and individual messages
-- Detect authorization, connector, and connectivity failures — 16 rules, 15 scenarios
+- Detect authorization, connector, and connectivity failures (16 rules, 15 scenarios)
 - Proxy a live charge point ↔ CSMS session and flag failures as they stream (Studio)
 - Generate shareable Markdown and HTML reports; diff and anonymize traces
-- Analyze traces in a browser, a CLI, or a native app — trace data stays local
+- Analyze traces in a browser, a CLI, or a native app, keeping trace data local
 
-*Status: both products are pre-1.0 and shipping — the toolkit on npm, Studio as a native macOS and Linux build.*
+*Status: both products are pre-1.0 and shipping, the toolkit on npm and Studio as a native macOS and Linux build.*
 
 **Explore the project**
 
@@ -56,17 +58,27 @@ The two share **no code**. They meet at a conformance contract — the same trac
 
 ---
 
-### [ProductCue](https://productcue.ai)
+### [Open OCPP Trace](https://github.com/open-ocpp-trace/specification)
 
-> AI-native product intelligence for early-stage software teams.
+> A vendor-neutral format for recording OCPP message exchanges.
 
-I’m building ProductCue to help software teams decide what is actually worth building before spending time implementing it.
+Open OCPP Trace is a versioned, implementation-independent JSON/JSONL format for OCPP traffic. It gives producers (simulators, proxies, charging stations, CSMS) and consumers (analyzers, debuggers, CI pipelines) one shared record to write to and read from, so a captured session can be replayed, diffed, or filed as a reproducible bug report by anyone. The format lives in its own neutral repository so no single project’s roadmap governs it.
 
-ProductCue turns public market evidence—competitor reviews, recurring complaints, pricing friction, feature gaps, and switching signals—into prioritized opportunities and actionable build briefs.
+It grew out of an ongoing collaboration with the maintainers of [ocpp-cp-simulator](https://github.com/shiv3/ocpp-cp-simulator) and [awesome-ev-charging](https://github.com/juherr/awesome-ev-charging). DebugKit’s toolkit already reads and writes the format, and I’m contributing the JSON Schema and a conformance suite so independent implementations can be checked against the same fixtures.
 
-The principle behind it is simple:
+[Specification](https://github.com/open-ocpp-trace/specification)
 
-> Evidence first. Product decision second. Build third.
+---
+
+### [OCPP Handbook](https://github.com/sepehr-safari/ocpp-handbook)
+
+> A free, vendor-neutral course on EV-charging software.
+
+The OCPP Handbook starts from zero and builds toward reading raw OCPP frames, running your own captures, and working with the specifications directly: industry context first, then the hardware and physical layer, then the protocol stack, then field debugging. Claims link to their sources, and protocol statements cite the specifications by section.
+
+It is written in the open and still in progress, with the early modules available now.
+
+[Read the handbook](https://github.com/sepehr-safari/ocpp-handbook)
 
 ## Also building
 
@@ -78,19 +90,27 @@ The principle behind it is simple:
 [![signet](https://img.shields.io/github/v/release/zig-nostr/signet?display_name=tag&label=signet)](https://github.com/zig-nostr/signet/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zig-nostr/nostr/blob/main/LICENSE)
 
-A foundational Nostr protocol library for Zig — keys and signatures, events, relay transport with the outbox model, a zero-copy local-first event store, and NIP-46 remote signing. Plus [Signet](https://github.com/zig-nostr/signet), a native remote signer that keeps your key off every client and holds every request for explicit approval.
+A foundational Nostr protocol library for Zig: keys and signatures, events, relay transport with the outbox model, a zero-copy local-first event store, and NIP-46 remote signing. Plus [Signet](https://github.com/zig-nostr/signet), a native remote signer that keeps your key off every client and holds every request for explicit approval.
 
 - secp256k1 keys and BIP-340 Schnorr signatures via `libsecp256k1`, passing the official test vectors (19/19)
-- A zero-copy, memory-mapped LMDB event store — its own benchmark measures ~0.28 ms feed queries that stay flat as the store grows
+- A zero-copy, memory-mapped LMDB event store whose own benchmark measures ~0.28 ms feed queries that stay flat as the store grows
 - NIP-65 outbox routing with zero hardcoded relays, NIP-44 v2 encryption, and NIP-42 relay auth
 
 *Status: `nostr` is pre-alpha (`v0.3.5`); Signet is early and macOS-only. Both ship tested releases, but APIs may still change before 1.0.*
 
 [Docs & benchmarks](https://zignostr.com) · [nostr](https://github.com/zig-nostr/nostr) · [Signet](https://github.com/zig-nostr/signet)
 
+---
+
+### [ProductCue](https://productcue.ai)
+
+> AI-native product intelligence for early-stage software teams.
+
+ProductCue turns public market evidence (competitor reviews, recurring complaints, pricing friction, feature gaps) into prioritized opportunities and build briefs, so teams can decide what is worth building before they build it.
+
 ## Selected open-source work
 
-I’ve been building on Nostr since 2023 — first in TypeScript, where the work included developer libraries, project scaffolding, protocol-based applications, and two OpenSats grants. `zig-nostr` above is that same protocol, rebuilt native.
+I’ve been building on Nostr since 2023, first in TypeScript, where the work included developer libraries, project scaffolding, protocol-based applications, and two OpenSats grants. `zig-nostr` above is that same protocol, rebuilt native.
 
 | Project | Description |
 |---|---|
