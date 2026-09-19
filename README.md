@@ -1,20 +1,7 @@
-<h1 align="center">Sepehr Safari</h1>
-
-<p align="center">
+<div align="center">
+  <h1>Sepehr Safari</h1>
   <strong>Full-Stack Software Engineer</strong>
-</p>
-
-<p align="center">
-  <a href="https://ocppdebugkit.com">OCPP DebugKit</a>
-  ·
-  <a href="https://github.com/open-ocpp-trace/specification">Open OCPP Trace</a>
-  ·
-  <a href="https://github.com/sepehr-safari/ocpp-handbook">OCPP Handbook</a>
-  ·
-  <a href="https://zignostr.com">zig-nostr</a>
-  ·
-  <a href="https://www.linkedin.com/in/sepehrsafari/">LinkedIn</a>
-</p>
+</div>
 
 ---
 
