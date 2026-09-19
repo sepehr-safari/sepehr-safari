@@ -1,7 +1,7 @@
 <h1 align="center">Sepehr Safari</h1>
 
 <p align="center">
-  <strong>Software engineer building open-source eMobility DevTools, native protocol libraries, and AI-native engineering workflows.</strong>
+  <strong>Full-Stack Software Engineer</strong>
 </p>
 
 <p align="center">
@@ -18,9 +18,9 @@
 
 ---
 
-I’m a full-stack software engineer with 7+ years of experience building developer tools, web applications, open-source infrastructure, and SaaS products.
+I’m a full-stack software engineer building commercial products, developer tools, and open-source software.
 
-My current work sits at the intersection of **eMobility**, **developer tooling**, **protocol engineering**, **product intelligence**, and **AI-native engineering workflows**.
+My current work sits at the intersection of **eMobility**, **developer tooling**, **protocol engineering**, and **AI-native engineering workflows**.
 
 I care about making complex systems easier to inspect, understand, and improve.
 
@@ -142,17 +142,9 @@ I’ve been building on Nostr since 2023, first in TypeScript, where the work in
 
 `TypeScript` · `React` · `Next.js` · `Node.js` · `Tailwind CSS`
 
-**Native and systems**
-
-`Zig` · `Native SDK` · `LMDB` · `libsecp256k1`
-
 **Data and infrastructure**
 
-`PostgreSQL` · `Supabase` · `Redis` · `SQLite` · `IndexedDB`
-
-**Additional experience**
-
-`Python` · `Go`
+`PostgreSQL` · `Supabase` · `AWS`
 
 **AI workflows**
 
@@ -173,9 +165,3 @@ AI has made building faster, but speed is only valuable after choosing the right
 ## Let’s connect
 
 I’m interested in collaborating with eMobility and EV-charging engineers, OCPP implementers and CSMS teams, open-source maintainers and contributors, and developers working on protocol tooling or practical AI-native workflows.
-
-For OCPP DebugKit feedback, bugs, or feature requests, please [open an issue](https://github.com/ocpp-debugkit/toolkit/issues).
-
-You can also find me on:
-
-[LinkedIn](https://www.linkedin.com/in/sepehrsafari/) · [Personal Website](https://sepehrsafari.com) · [ProductCue](https://productcue.ai)
