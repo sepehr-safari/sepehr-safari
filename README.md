@@ -1,154 +1,20 @@
 <div align="center">
   <h1>Sepehr Safari</h1>
-  <strong>Full-Stack Software Engineer</strong>
+  <p><strong>Full-stack software engineer</strong><br>developer tooling · protocol engineering · web apps</p>
+  <p><a href="https://sepehrsafari.com">sepehrsafari.com</a></p>
 </div>
 
----
+I build software on open protocols. I take specs like OCPP and Nostr and turn them into things people can use: libraries and SDKs for developers, tools for the engineers running real systems, and apps for end users. I work end to end, from the protocol layer to full-stack products in TypeScript and React.
 
-I’m a full-stack software engineer building commercial products, developer tools, and open-source software.
+## Highlights
 
-My current work sits at the intersection of **eMobility**, **developer tooling**, **protocol engineering**, and **AI-native engineering workflows**.
+- **Built [OCPP DebugKit](https://ocppdebugkit.com)**, open-source DevTools for EV-charging sessions: a TypeScript toolkit (CLI, web inspector, CI) with 3,000+ npm downloads across 30+ releases, plus a native desktop app that captures live charger traffic.
+- **Started [Open OCPP Trace](https://github.com/open-ocpp-trace/specification)** with maintainers from the OCPP open-source community: a vendor-neutral format for recording OCPP traffic, with a JSON Schema and a 15-fixture conformance suite.
+- **Wrote the [OCPP Handbook](https://github.com/sepehr-safari/ocpp-handbook)**, a free 18-module course on EV-charging software, from the hardware up to reading raw OCPP frames.
+- **Built [zig-nostr](https://zignostr.com)**, the Nostr protocol in native Zig: a protocol library, a desktop client, a key signer, and a CLI, shipped across 100+ tagged releases. Feed queries run in about 0.28 ms from a local store.
+- **Created [nostr-hooks](https://github.com/ostyjs/nostr-hooks)** (18,000+ npm downloads) and [create-osty](https://github.com/ostyjs/create-osty) (6,000+), a React library and project scaffolder for building Nostr apps, plus apps like [Pinstr](https://github.com/sepehr-safari/pinstr) and [Nostribe](https://github.com/sepehr-safari/nostribe).
+- **Building [ProductCue](https://productcue.ai)**, which turns public market evidence (reviews, complaints, pricing friction) into prioritized build briefs.
 
-I care about making complex systems easier to inspect, understand, and improve.
+## Stack
 
-## eMobility & OCPP
-
-### [OCPP DebugKit](https://ocppdebugkit.com)
-
-> Open-source DevTools for debugging OCPP charging sessions.
-
-[![toolkit](https://img.shields.io/github/v/release/ocpp-debugkit/toolkit?display_name=tag&label=toolkit)](https://github.com/ocpp-debugkit/toolkit/releases)
-[![npm](https://img.shields.io/npm/v/@ocpp-debugkit/toolkit?label=npm)](https://www.npmjs.com/package/@ocpp-debugkit/toolkit)
-[![studio](https://img.shields.io/github/v/release/ocpp-debugkit/studio?display_name=tag&label=studio)](https://github.com/ocpp-debugkit/studio/releases)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/ocpp-debugkit/toolkit/blob/main/LICENSE)
-
-OCPP DebugKit helps charging-infrastructure developers diagnose failures and understand what happened during an OCPP session. It is two independent products that share one trace format:
-
-| | Language | Surface | Role |
-|---|---|---|---|
-| [**toolkit**](https://github.com/ocpp-debugkit/toolkit) | TypeScript | npm · CLI · web inspector | Parse, analyze, and report traces anywhere, including CI |
-| [**Studio**](https://github.com/ocpp-debugkit/studio) | Zig | native desktop app | Live capture off the wire, native performance, OS integration |
-
-The two share **no code**. They meet at a conformance contract (the same trace format, the same event model, the same 16-rule failure taxonomy), with Studio’s goldens generated from the toolkit’s evaluator and re-checked in CI on every change.
-
-- Inspect charging-session traces, timelines, and individual messages
-- Detect authorization, connector, and connectivity failures (16 rules, 18 scenarios)
-- Proxy a live charge point ↔ CSMS session and flag failures as they stream (Studio)
-- Generate shareable Markdown and HTML reports; diff and anonymize traces
-- Analyze traces in a browser, a CLI, or a native app, keeping trace data local
-
-*Status: both products are pre-1.0 and shipping, the toolkit on npm and Studio as a native macOS and Linux build.*
-
-**Explore the project**
-
-[Web Inspector](https://ocppdebugkit.com/inspector) · [Documentation](https://ocppdebugkit.com/docs) · [toolkit](https://github.com/ocpp-debugkit/toolkit) · [Studio](https://github.com/ocpp-debugkit/studio) · [npm](https://www.npmjs.com/package/@ocpp-debugkit/toolkit)
-
----
-
-### [Open OCPP Trace](https://github.com/open-ocpp-trace/specification)
-
-> A vendor-neutral format for recording OCPP message exchanges.
-
-Open OCPP Trace is a versioned, implementation-independent JSON/JSONL format for OCPP traffic. It gives producers (simulators, proxies, charging stations, CSMS) and consumers (analyzers, debuggers, CI pipelines) one shared record to write to and read from, so a captured session can be replayed, diffed, or filed as a reproducible bug report by anyone. The format lives in its own neutral repository so no single project’s roadmap governs it.
-
-It grew out of an ongoing collaboration with the maintainers of [ocpp-cp-simulator](https://github.com/shiv3/ocpp-cp-simulator) and [awesome-ev-charging](https://github.com/juherr/awesome-ev-charging). DebugKit’s toolkit already reads and writes the format, and the specification now ships a v1.1 JSON Schema alongside a conformance suite of 15 fixtures, so independent implementations can be checked against the same corpus rather than against one project’s reading of the format.
-
-[Specification](https://github.com/open-ocpp-trace/specification)
-
----
-
-### [OCPP Handbook](https://github.com/sepehr-safari/ocpp-handbook)
-
-> A free, vendor-neutral course on EV-charging software.
-
-The OCPP Handbook starts from zero and builds toward reading raw OCPP frames, running your own captures, and working with the specifications directly: industry context first, then the hardware and physical layer, then the protocol stack, then field debugging. Claims link to their sources, and protocol statements cite the specifications by section.
-
-It is written in the open, and all eighteen modules are available now: orientation, the industry and the hardware, the protocol map, eight modules on OCPP itself, field debugging and tracing, reading the specifications, and a capstone that goes end to end with open tools. The glossary keeps growing.
-
-[Read the handbook](https://github.com/sepehr-safari/ocpp-handbook)
-
-## Also building
-
-### [zig-nostr](https://zignostr.com)
-
-> The Nostr protocol, natively in Zig.
-
-[![nostr](https://img.shields.io/github/v/release/zig-nostr/nostr?display_name=tag&label=nostr)](https://github.com/zig-nostr/nostr/releases)
-[![notary](https://img.shields.io/github/v/release/zig-nostr/notary?display_name=tag&label=notary)](https://github.com/zig-nostr/notary/releases)
-[![plaza](https://img.shields.io/github/v/release/zig-nostr/plaza?display_name=tag&label=plaza)](https://github.com/zig-nostr/plaza/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zig-nostr/nostr/blob/main/LICENSE)
-
-One protocol library and two native macOS apps built on it, no browser and no Electron anywhere in the stack:
-
-| | Role |
-|---|---|
-| [**nostr**](https://github.com/zig-nostr/nostr) | The protocol library: keys and signatures, events, relay transport with the outbox model, a zero-copy local-first store, and the NIP-46 signer protocol |
-| [**Notary**](https://github.com/zig-nostr/notary) | A native remote signer that keeps your key off every client and holds every request for explicit approval |
-| [**Plaza**](https://github.com/zig-nostr/plaza) | The flagship client: a follow-based feed rendered from disk, with signing through Notary so the key never enters the app |
-
-- secp256k1 keys and BIP-340 Schnorr signatures via `libsecp256k1`, passing the official test vectors (19/19)
-- A zero-copy, memory-mapped LMDB event store whose own benchmark measures ~0.28 ms feed queries that stay flat as the store grows, and reads one account’s profile out of 100,000 events by touching a single index entry
-- NIP-65 outbox routing with zero hardcoded relays, NIP-44 v2 encryption, and NIP-42 relay auth
-- Plaza’s feed is a local query before it is a network one: a hard scroll on a 300-follow account spends about a quarter of a 120 Hz frame, and the cost follows the viewport rather than the size of the account
-
-*Status: `nostr` is pre-alpha (`v0.3.8`); Notary and Plaza are early, macOS-only, and installable today. All three ship tested releases, but APIs may still change before 1.0.*
-
-[Docs & benchmarks](https://zignostr.com) · [nostr](https://github.com/zig-nostr/nostr) · [Notary](https://github.com/zig-nostr/notary) · [Plaza](https://github.com/zig-nostr/plaza)
-
----
-
-### [ProductCue](https://productcue.ai)
-
-> AI-native product intelligence for early-stage software teams.
-
-ProductCue turns public market evidence (competitor reviews, recurring complaints, pricing friction, feature gaps) into prioritized opportunities and build briefs, so teams can decide what is worth building before they build it.
-
-## Selected open-source work
-
-I’ve been building on Nostr since 2023, first in TypeScript, where the work included developer libraries, project scaffolding, protocol-based applications, and two OpenSats grants. `zig-nostr` above is that same protocol, rebuilt native.
-
-| Project | Description |
-|---|---|
-| [`nostr-hooks`](https://github.com/ostyjs/nostr-hooks) | React hooks for building applications on the Nostr protocol |
-| [`create-osty`](https://github.com/ostyjs/create-osty) | Project scaffolding for quickly starting Nostr applications |
-| [`Pinstr`](https://github.com/sepehr-safari/pinstr) | Open-source social platform for curating and sharing interests |
-| [`Nostribe`](https://github.com/sepehr-safari/nostribe) | Twitter-style social application built on Nostr |
-| [`NIP-29 Groups`](https://github.com/max21dev/groups) | Group-chat client built around the NIP-29 specification |
-
-## Engineering focus
-
-- Developer tools and debugging infrastructure
-- Protocol-oriented and event-driven systems (OCPP, Nostr)
-- Native, local-first, privacy-conscious software
-- Full-stack TypeScript product development
-- AI-native product and engineering workflows
-
-## Technologies
-
-**Primary stack**
-
-`TypeScript` · `React` · `Next.js` · `Node.js` · `Tailwind CSS`
-
-**Data and infrastructure**
-
-`PostgreSQL` · `Supabase` · `AWS`
-
-**AI workflows**
-
-LLMs · customized AI agents · multi-agent orchestration · engineering automation
-
-## How I work
-
-I prefer software that is:
-
-- Useful before it is impressive
-- Explicit rather than unnecessarily abstract
-- Built around real evidence and user pain
-- Easy for other developers to understand and extend
-- Honest about what it currently supports
-
-AI has made building faster, but speed is only valuable after choosing the right problem.
-
-## Let’s connect
-
-I’m interested in collaborating with eMobility and EV-charging engineers, OCPP implementers and CSMS teams, open-source maintainers and contributors, and developers working on protocol tooling or practical AI-native workflows.
+`TypeScript` · `React` · `Next.js` · `Node.js` · `PostgreSQL` · `Supabase` · `AWS`
